@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+    // Node loads workspace packages from their compiled dist/, so the build
+    // must type against dist/ too (source files would fall outside rootDir).
+    "customConditions": []
+  },
+  "exclude": ["src/**/*.test.ts"]
+}

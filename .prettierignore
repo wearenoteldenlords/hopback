@@ -1,0 +1,6 @@
+pnpm-lock.yaml
+dist
+coverage
+.turbo
+# Hand-written Vietnamese planning docs; keep their formatting as authored.
+docs/session_context.md
